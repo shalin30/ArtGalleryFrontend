@@ -1,0 +1,108 @@
+.signup-page{
+  height: 700px;
+}
+.signin-container {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 80px;
+}
+
+.intro-message {
+  margin-top:100px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.intro-message h3 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.intro-message p {
+  font-size: 16px;
+  color: #000000;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 12px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-top: 5px; 
+}
+
+.signup-button {
+  position: relative;
+  width: 100%;
+  padding: 12px;
+  background-color: black;
+  color: white;
+  border: 2px solid black;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+  overflow: hidden; 
+  transition: color 0.4s ease; 
+  z-index: 1; 
+}
+
+.signup-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  transition: left 0.4s ease;
+  z-index: -1; 
+}
+
+.signup-button:hover {
+  color: black; 
+}
+
+.signup-button:hover::before {
+  left: 0; 
+}
+
+.intro-message {
+  text-align: center;
+  margin-bottom: 30px; 
+}
+
+.intro-message h3 {
+  font-size: 24px; 
+  color: #000000;
+}
+
+.intro-message p {
+  font-size: 20px; 
+  color: #000000;
+  margin-top: 10px; 
+}
+
+.signin-response-message { 
+  text-align: center;
+  font-size: 0.9rem;
+  color: #000000;
+  margin-top: 10px;
+}

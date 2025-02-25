@@ -60,7 +60,7 @@ The frontend for the Art Gallery application is developed using **React**, utili
 ### 1️⃣ Clone the Repository
 Clone the repository to your local machine:
 ```bash
-git clone https://github.com/yourusername/art-gallery-frontend.git
+git clone https://github.com/yourusername/artgalleryfrontend.git
 ```
 
 ### 2️⃣ Install Dependencies

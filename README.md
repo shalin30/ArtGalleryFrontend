@@ -4,7 +4,7 @@
 The frontend for the Art Gallery application is developed using **React**, utilizing **useEffect**, **useState**, and other React hooks to manage the application’s state and lifecycle. It fetches data from the backend API to display users, categories, art pieces, and orders. The frontend provides a seamless user experience with features such as cart management, modals, and dynamic display of art gallery data.
 
 ## Demo Video 📽️
-[Click here to watch the demo](https://drive.google.com/drive/folders/19DzaKSj7YPkJVs5gIxNuW7Wh6wn9ssHV?usp=sharing)
+[Click here to watch the demo and ](https://drive.google.com/drive/folders/19DzaKSj7YPkJVs5gIxNuW7Wh6wn9ssHV?usp=sharing)
 
 ## Key Features
 
